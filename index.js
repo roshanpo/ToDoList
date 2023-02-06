@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 3000;
 
 //code for database
 mongoose.set("strictQuery", false);  //to avoid that warning
-mongoose.connect(process.env.MONGO_URI);
+const connectDB = mongoose.connect(process.env.MONGO_URI);
 
 
 const workItems=[];

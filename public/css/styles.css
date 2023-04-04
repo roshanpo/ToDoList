@@ -18,7 +18,6 @@ h1 {
   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
 
-
 #heading {
   background-color: #A683E3;
   text-align: center;
@@ -74,45 +73,10 @@ input[type="text"] {
   height: 60px;
   top: 10px;
   border: none;
-  /*background: rgb(192, 216, 240);*/
-  font-size: 20px;
-  font-weight: 200;
-  width: 313px;
-}
-#registerForm {
-  margin-left: 450px;
-  text-align: center;
-  height: 60px;
-  top: 10px;
-  border: 20px black;
-  background: rgb(192, 216, 240);
-  font-size: 20px;
-  font-weight: 200;
-  width: 313px;
-}
-input[type="password"] {
-  text-align: center;
-  height: 60px;
-  top: 10px;
-  border: none;
-  background: rgb(192, 216, 240);
   background: transparent;
   font-size: 20px;
   font-weight: 200;
   width: 313px;
-}
-
-#register {
-  min-height: 50px;
-  width: 150px;
-  /*border-radius: 50%;*/
-  border-color: transparent;
-  background-color: #6e5796;
-  color: #fff;
-  font-size: 30px;
-  align-self: center;
-  padding-bottom: 6px;
-  /*border-width: 0;*/
 }
 
 input[type="text"]:focus {

@@ -18,6 +18,14 @@ app.get("/",function(req,res){
     res.render("list", {listTitle: day, newItems:items })
     
 })
+app.get("/login", (req,res) =>{
+    res.render('login.ejs')
+})
+
+app.get("/register",(req,res) =>{
+    res.render('register.ejs')
+})
+
 app.post("/", function(req, res){
     const item = req.body.newItem;
     if(req.body.list === "Work"){
@@ -31,7 +39,7 @@ app.post("/", function(req, res){
 
 })
 
-app.get("/work", function(req,res){
+/*app.get("/work", function(req,res){
     res.render("list", {listTitle: "Work List", newItems:workItems});
 })
 app.post("/work", function(req,res){
@@ -39,7 +47,7 @@ app.post("/work", function(req,res){
     workItems.push(item);
     res.redirect("/work");
 
-})
+})*/
 app.get("/about", function(req,res){
     res.render("about");
 })
